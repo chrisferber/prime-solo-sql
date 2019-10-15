@@ -1,5 +1,6 @@
 --1. How do you get all users from Chicago?
-
+SELECT "username" FROM "accounts"
+WHERE "city"='chicago';
 
 --2. How do you get all users with usernames that contain the letter a?
 
