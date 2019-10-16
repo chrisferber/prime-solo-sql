@@ -29,6 +29,7 @@ SELECT "username" FROM "accounts"
 WHERE "account_balance">100;
 
 --8. How do you add a new account?
-
+INSERT INTO "accounts" ("username","city","transactions_completed","transactions_attempted","account_balance")
+VALUES ('chris','minneapolis',5000,5000,500000000 );
 
 --9. The bank is losing money in Miami and Phoenix and needs to unload low transaction customers: How do you delete users that reside in miami OR phoenix and have completed fewer than 5 transactions.
